@@ -5,8 +5,7 @@
     "description": "Disable the e-commerce on your Sylius.",
     "license": "MIT",
     "require": {
-        "php": "~7.4|^8.0",
-        "sylius/sylius": ">=1.8 <1.12",
+        "php": "~7.4|^8.0|^8.1",
         "monsieurbiz/sylius-settings-plugin": "^1.0.9"
     },
     "require-dev": {
