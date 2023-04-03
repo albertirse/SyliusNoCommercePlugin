@@ -19,7 +19,7 @@ use Symfony\Component\Config\Exception\LoaderLoadException;
 use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\Config\Resource\ResourceInterface;
 use Symfony\Component\Routing\RouteCollection;
-use Symfony\Component\Routing\RouteCollectionBuilder as BaseRouteCollectionBuilder;
+use Symfony\Component\Routing\RoutingConfigurator as BaseRouteCollectionBuilder;
 
 class RouteCollectionBuilder extends BaseRouteCollectionBuilder
 {
